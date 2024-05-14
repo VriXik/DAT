@@ -1,0 +1,147 @@
+/* CSS soubor pro hotel Vytvor */
+
+/* Nastavení vzhledu pro celou stránku */
+body {
+    /* Barva textu */
+    color: black;
+    /* Typ písma */
+    font-family: Arial, sans-serif;
+    /* Velikost písma */
+    font-size: 16px;
+    /* Zarovnání textu */
+    text-align: center;
+    /* Okraj stránky */
+    margin: 0;
+    /* Odsazení stránky */
+    padding: 0;
+}
+
+/* Nastavení vzhledu pro navigační lištu */
+.nav-bar {
+    /* Barva pozadí */
+    background: lightblue;
+    /* Šířka lišty */
+    width: 100%;
+    /* Výška lišty */
+    height: 50px;
+    /* Okraj lišty */
+    margin: 0;
+    /* Odsazení lišty */
+    padding: 0;
+}
+
+/* Nastavení vzhledu pro seznam odkazů v navigační liště */
+.nav-bar ul {
+    /* Typ seznamu */
+    list-style: none;
+    /* Způsob zobrazení seznamu */
+    display: flex;
+    /* Zarovnání položek seznamu */
+    justify-content: space-around;
+    /* Zarovnání položek seznamu podle svislé osy */
+    align-items: center;
+    /* Výška seznamu */
+    height: 100%;
+    /* Okraj seznamu */
+    margin: 0;
+    /* Odsazení seznamu */
+    padding: 0;
+}
+
+/* Nastavení vzhledu pro položky seznamu v navigační liště */
+.nav-bar li {
+    /* Způsob zobrazení položek */
+    display: inline-block;
+}
+
+/* Nastavení vzhledu pro odkazy v navigační liště */
+.nav-bar a {
+    /* Barva textu */
+    color: white;
+    /* Typ písma */
+    font-family: Arial, sans-serif;
+    /* Velikost písma */
+    font-size: 20px;
+    /* Řez písma */
+    font-weight: bold;
+    /* Dekorace textu */
+    text-decoration: none;
+}
+
+/* Nastavení vzhledu pro odkazy v navigační liště při najetí myší */
+.nav-bar a:hover {
+    /* Barva textu */
+    color: yellow;
+    /* Dekorace textu */
+    text-decoration: underline;
+}
+
+/* Nastavení vzhledu pro hlavní obsah stránky */
+.main-content {
+    /* Barva pozadí */
+    background: white;
+    /* Šířka obsahu */
+    width: 80%;
+    /* Okraj obsahu */
+    margin: 20px auto;
+    /* Odsazení obsahu */
+    padding: 20px;
+    /* Rámeček obsahu */
+    border: 2px solid lightblue;
+}
+
+/* Nastavení vzhledu pro nadpis první úrovně v hlavním obsahu */
+.main-content h1 {
+    /* Barva textu */
+    color: blue;
+    /* Typ písma */
+    font-family: Arial, sans-serif;
+    /* Velikost písma */
+    font-size: 36px;
+    /* Řez písma */
+    font-weight: bold;
+    /* Zarovnání textu */
+    text-align: center;
+}
+
+/* Nastavení vzhledu pro odstavce v hlavním obsahu */
+.main-content p {
+    /* Barva textu */
+    color: black;
+    /* Typ písma */
+    font-family: Arial, sans-serif;
+    /* Velikost písma */
+    font-size: 18px;
+    /* Zarovnání textu */
+    text-align: justify;
+}
+
+/* Nastavení vzhledu pro tlačítko v hlavním obsahu */
+.main-content button {
+    /* Barva textu */
+    color: white;
+    /* Barva pozadí */
+    background: blue;
+    /* Typ písma */
+    font-family: Arial, sans-serif;
+    /* Velikost písma */
+    font-size: 24px;
+    /* Řez písma */
+    font-weight: bold;
+    /* Okraj tlačítka */
+    margin: 10px auto;
+    /* Odsazení tlačítka */
+    padding: 10px 20px;
+    /* Rámeček tlačítka */
+    border: none;
+    /* Tvar kurzoru při najetí myší */
+    cursor: pointer;
+}
+
+/* Nastavení vzhledu pro tlačítko v hlavním obsahu při najetí myší */
+.main-content button:hover {
+    /* Barva textu */
+    color: yellow;
+    /* Barva pozadí */
+    background: navy;
+}
